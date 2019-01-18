@@ -9,7 +9,7 @@ $ python lang_recognition.py
 ------------
 
 
-###libraries/packages required:-
+### libraries/packages required:-
 - numpy
 - scipy
 - keras
@@ -25,7 +25,7 @@ and all their dependencies
 
 ------------
 
-###Special features of the Program:-
+### Special features of the Program:-
 We have also saved the **trained model** and have provided with this program. So, now you do not have to waste time to train the network again. However training dataset have been provided too in case training is required.
 There are 3 options in the menu that can be used:-
 1.  To Draw and Predict
@@ -57,6 +57,6 @@ option.
 
 ------------
 
-###How we did it:-
+### How we did it:-
 We used CNN for this purpose. 2000+ samples of digits written in three languages (English,Hindi and Odia) are used for training and around 400 samples are used for testing. Accuracy comes out to be above 90%. The model comprises of two 2D convolution layers.  Each followed by maxpooling and dropout.
 Lots of preprocessing were required for images before they can be used for training. Those are explained in the code itself.
